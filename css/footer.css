@@ -1,0 +1,61 @@
+.foot {
+  background: rgba(0, 0, 0, 0.964);
+  height: 500px;
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.social {
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
+.col-3 {
+  text-align: center;
+
+}
+
+p {
+  color: #A8A8A8;
+}
+
+i {
+  text-decoration: none;
+}
+
+b {
+  color: #A8A8A8;
+}
+
+a {
+  text-align: center;
+}
+
+.fa-instagram {
+  margin-left: 150px;
+
+}
+
+.fa-whatsapp {
+  margin-left: 50px;
+
+}
+
+.fa-facebook {
+  margin-right: 30px;
+
+}
+
+.fa-x-twitter {
+  margin-right: 100px;
+
+}

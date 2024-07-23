@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+  .couvrir {
+    display: flex;
+}
+.book-cover {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.book-cover img  {
+    max-width: 800px;
+    height: 400px;
+    display: block;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.book-cover img:hover {
+    transform: scale(1.02);
+}
+
+.book-info {
+    flex: 1;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.book-info h2 {
+    font-family: "Kode Mono", monospace;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #6574e6; 
+}
+.book-info h2:hover,
+.book-info p:hover {
+    transform: scale(1.02);
+
+}
+
+.book-info p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 20px;
+    color:  black; 
+
+}
+
+.book-info button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.book-info button:hover {
+    background-color:  #6574e6;
+} 
+.book-info p:nth-child(5) {
+    /* Styles CSS pour le troisième paragraphe à l'intérieur de .book-info */
+    font-weight: bold;
+    color: blue;
+} 
+@keyframes slideInFromleft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .book-container{
+    animation: slideInFromleft 1s ease forwards;
+  }
+  .couvrir{
+    flex: 1 0 50%;
+  }
+  .book-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1000px;
+    background: linear-gradient(to bottom, white, rgba(255, 255, 255,0.5));
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;  
+    padding: 10px;
+    height:auto;
+  }
+  .description{
+    width: 100%; 
+    height: auto; 
+    padding: 20px;
+    margin: 10px;
+  }
+  .description h2 {
+    font-family: "Kode Mono", monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #6574e6; 
+}
